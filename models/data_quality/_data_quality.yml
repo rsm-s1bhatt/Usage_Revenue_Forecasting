@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: dq_duplicate_opportunities
+    description: Opportunities repeating another one's account, type, amount and close date. Raise with Sales Ops.
+    data_tests:
+      - is_empty:
+          config: {severity: warn}
+  - name: dq_opportunities_unknown_account
+    description: Opportunities linked to an account that is not in the CRM account table.
+    data_tests:
+      - is_empty:
+          config: {severity: warn}
+  - name: dq_invoice_mismatches
+    description: Invoices where billed is not the greater of commit and discounted usage. Raise with Billing.
+    data_tests:
+      - is_empty:
+          config: {severity: warn}
+  - name: dq_negative_usage
+    description: Telemetry rows with zero or negative GPU hours. Raise with the platform data team.
+    data_tests:
+      - is_empty:
+          config: {severity: warn}
+  - name: dq_summary
+    description: One row per data-quality check with the number of flagged records.
+    columns:
+      - name: check_name
+        data_tests: [unique, not_null]

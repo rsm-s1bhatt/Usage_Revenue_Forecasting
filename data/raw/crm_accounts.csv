@@ -1,0 +1,481 @@
+account_id,account_name,segment,industry,region,owner_rep_id,first_usage_date
+ACC0001,Customer 0001,Mid-Market,Healthcare AI,NA-West,REP002,2026-02-19
+ACC0002,Customer 0002,Startup,Developer tools,NA-East,REP007,2024-09-14
+ACC0003,Customer 0003,Startup,Developer tools,NA-East,REP011,2024-11-13
+ACC0004,Customer 0004,Startup,Enterprise SaaS,EMEA,REP015,2025-07-02
+ACC0005,Customer 0005,Startup,Developer tools,NA-East,REP010,2025-08-01
+ACC0006,Customer 0006,Mid-Market,Media & content,NA-East,REP007,2024-08-11
+ACC0007,Customer 0007,Mid-Market,Healthcare AI,EMEA,REP013,2024-10-15
+ACC0008,Customer 0008,Enterprise,AI-native apps,NA-West,REP002,2024-09-17
+ACC0009,Customer 0009,Mid-Market,Media & content,NA-West,REP001,2025-07-07
+ACC0010,Customer 0010,Enterprise,Media & content,NA-West,REP004,2026-08-05
+ACC0011,Customer 0011,Startup,Media & content,EMEA,REP012,2024-01-18
+ACC0012,Customer 0012,Startup,Healthcare AI,NA-West,REP003,2026-08-07
+ACC0013,Customer 0013,Startup,Healthcare AI,NA-East,REP009,2024-07-03
+ACC0014,Customer 0014,Enterprise,Enterprise SaaS,EMEA,REP015,2025-07-03
+ACC0015,Customer 0015,Startup,Media & content,EMEA,REP015,2025-04-19
+ACC0016,Customer 0016,Mid-Market,Media & content,NA-West,REP001,2026-05-08
+ACC0017,Customer 0017,Enterprise,AI-native apps,NA-West,REP006,2026-07-05
+ACC0018,Customer 0018,Mid-Market,Enterprise SaaS,NA-East,REP011,2024-01-19
+ACC0019,Customer 0019,Enterprise,Healthcare AI,NA-West,REP001,2026-06-06
+ACC0020,Customer 0020,Startup,Media & content,EMEA,REP015,2025-10-17
+ACC0021,Customer 0021,Mid-Market,Developer tools,NA-West,REP001,2026-07-16
+ACC0022,Customer 0022,Startup,Media & content,NA-West,REP003,2026-09-19
+ACC0023,Customer 0023,Mid-Market,Healthcare AI,NA-East,REP010,2024-04-07
+ACC0024,Customer 0024,Startup,Healthcare AI,NA-East,REP010,2025-08-13
+ACC0025,Customer 0025,Enterprise,AI-native apps,NA-East,REP011,2024-05-12
+ACC0026,Customer 0026,Startup,Enterprise SaaS,NA-East,REP011,2026-08-07
+ACC0027,Customer 0027,Startup,AI-native apps,EMEA,REP014,2026-03-14
+ACC0028,Customer 0028,Mid-Market,AI-native apps,NA-West,REP002,2025-05-16
+ACC0029,Customer 0029,Enterprise,AI-native apps,NA-East,REP007,2024-11-14
+ACC0030,Customer 0030,Startup,Healthcare AI,APAC,REP016,2025-03-18
+ACC0031,Customer 0031,Startup,Media & content,APAC,REP016,2025-01-06
+ACC0032,Customer 0032,Enterprise,Enterprise SaaS,NA-West,REP002,2026-08-06
+ACC0033,Customer 0033,Startup,Enterprise SaaS,NA-West,REP004,2025-12-01
+ACC0034,Customer 0034,Startup,Developer tools,EMEA,REP015,2024-08-20
+ACC0035,Customer 0035,Mid-Market,AI-native apps,NA-West,REP001,2024-08-07
+ACC0036,Customer 0036,Startup,Healthcare AI,NA-West,REP001,2024-10-20
+ACC0037,Customer 0037,Mid-Market,Healthcare AI,NA-West,REP005,2025-04-07
+ACC0038,Customer 0038,Mid-Market,Media & content,NA-East,REP008,2025-05-03
+ACC0039,Customer 0039,Mid-Market,Media & content,EMEA,REP013,2024-03-18
+ACC0040,Customer 0040,Startup,Developer tools,NA-East,REP010,2026-03-11
+ACC0041,Customer 0041,Mid-Market,Enterprise SaaS,NA-West,REP006,2026-02-11
+ACC0042,Customer 0042,Mid-Market,AI-native apps,NA-West,REP001,2024-09-20
+ACC0043,Customer 0043,Startup,Enterprise SaaS,NA-West,REP003,2026-08-09
+ACC0044,Customer 0044,Startup,Media & content,NA-West,REP002,2026-05-17
+ACC0045,Customer 0045,Startup,AI-native apps,EMEA,REP015,2026-08-10
+ACC0046,Customer 0046,Startup,Developer tools,NA-West,REP001,2025-05-14
+ACC0047,Customer 0047,Startup,Healthcare AI,NA-West,REP002,2026-01-14
+ACC0048,Customer 0048,Mid-Market,Media & content,APAC,REP018,2024-09-05
+ACC0049,Customer 0049,Mid-Market,AI-native apps,APAC,REP017,2026-06-10
+ACC0050,Customer 0050,Startup,AI-native apps,APAC,REP017,2026-07-19
+ACC0051,Customer 0051,Startup,Enterprise SaaS,APAC,REP018,2026-06-05
+ACC0052,Customer 0052,Startup,Healthcare AI,NA-East,REP008,2024-05-19
+ACC0053,Customer 0053,Mid-Market,Media & content,NA-West,REP006,2025-08-02
+ACC0054,Customer 0054,Mid-Market,Enterprise SaaS,EMEA,REP013,2025-09-16
+ACC0055,Customer 0055,Mid-Market,Enterprise SaaS,APAC,REP016,2025-02-15
+ACC0056,Customer 0056,Mid-Market,Healthcare AI,APAC,REP017,2026-01-15
+ACC0057,Customer 0057,Enterprise,Healthcare AI,NA-East,REP007,2025-08-16
+ACC0058,Customer 0058,Startup,Media & content,EMEA,REP012,2024-03-09
+ACC0059,Customer 0059,Mid-Market,Healthcare AI,NA-West,REP004,2026-09-18
+ACC0060,Customer 0060,Enterprise,AI-native apps,NA-East,REP008,2025-01-14
+ACC0061,Customer 0061,Mid-Market,Enterprise SaaS,NA-West,REP003,2026-07-04
+ACC0062,Customer 0062,Startup,Enterprise SaaS,NA-West,REP005,2026-08-13
+ACC0063,Customer 0063,Startup,AI-native apps,NA-West,REP006,2024-10-04
+ACC0064,Customer 0064,Mid-Market,Developer tools,NA-West,REP003,2026-04-14
+ACC0065,Customer 0065,Startup,Enterprise SaaS,NA-West,REP006,2025-09-08
+ACC0066,Customer 0066,Mid-Market,Media & content,NA-West,REP006,2026-02-12
+ACC0067,Customer 0067,Mid-Market,AI-native apps,NA-West,REP004,2025-05-15
+ACC0068,Customer 0068,Mid-Market,Developer tools,NA-East,REP009,2024-06-16
+ACC0069,Customer 0069,Startup,Enterprise SaaS,NA-West,REP001,2026-08-05
+ACC0070,Customer 0070,Mid-Market,Healthcare AI,NA-West,REP003,2025-06-19
+ACC0071,Customer 0071,Mid-Market,Media & content,NA-West,REP004,2025-05-15
+ACC0072,Customer 0072,Mid-Market,Developer tools,NA-West,REP002,2025-09-01
+ACC0073,Customer 0073,Mid-Market,AI-native apps,EMEA,REP012,2025-07-04
+ACC0074,Customer 0074,Startup,Enterprise SaaS,APAC,REP017,2025-07-19
+ACC0075,Customer 0075,Mid-Market,Developer tools,NA-East,REP011,2026-08-18
+ACC0076,Customer 0076,Startup,Enterprise SaaS,EMEA,REP013,2024-06-07
+ACC0077,Customer 0077,Startup,Developer tools,EMEA,REP013,2024-09-02
+ACC0078,Customer 0078,Startup,Developer tools,EMEA,REP015,2024-11-11
+ACC0079,Customer 0079,Enterprise,Healthcare AI,NA-West,REP003,2024-08-03
+ACC0080,Customer 0080,Startup,Healthcare AI,NA-West,REP006,2024-06-14
+ACC0081,Customer 0081,Startup,Developer tools,NA-East,REP008,2024-09-05
+ACC0082,Customer 0082,Mid-Market,Healthcare AI,NA-East,REP008,2024-07-16
+ACC0083,Customer 0083,Startup,AI-native apps,EMEA,REP013,2024-10-10
+ACC0084,Customer 0084,Mid-Market,Developer tools,EMEA,REP014,2024-11-01
+ACC0085,Customer 0085,Mid-Market,Developer tools,APAC,REP018,2024-03-15
+ACC0086,Customer 0086,Mid-Market,Media & content,NA-West,REP004,2025-09-10
+ACC0087,Customer 0087,Mid-Market,Developer tools,NA-West,REP001,2025-08-01
+ACC0088,Customer 0088,Startup,AI-native apps,NA-East,REP007,2025-12-03
+ACC0089,Customer 0089,Enterprise,Enterprise SaaS,APAC,REP017,2024-06-02
+ACC0090,Customer 0090,Mid-Market,Media & content,NA-East,REP008,2024-12-09
+ACC0091,Customer 0091,Mid-Market,Media & content,NA-West,REP006,2026-10-13
+ACC0092,Customer 0092,Startup,Enterprise SaaS,NA-West,REP003,2026-08-12
+ACC0093,Customer 0093,Mid-Market,AI-native apps,NA-West,REP006,2025-05-03
+ACC0094,Customer 0094,Mid-Market,AI-native apps,NA-East,REP009,2026-06-19
+ACC0095,Customer 0095,Mid-Market,Healthcare AI,NA-East,REP009,2025-04-18
+ACC0096,Customer 0096,Startup,Media & content,NA-East,REP009,2026-05-10
+ACC0097,Customer 0097,Startup,Media & content,NA-East,REP008,2025-11-03
+ACC0098,Customer 0098,Startup,Healthcare AI,NA-East,REP008,2024-12-13
+ACC0099,Customer 0099,Enterprise,AI-native apps,NA-West,REP006,2026-02-14
+ACC0100,Customer 0100,Mid-Market,Media & content,NA-East,REP007,2025-07-16
+ACC0101,Customer 0101,Startup,AI-native apps,EMEA,REP014,2024-04-06
+ACC0102,Customer 0102,Startup,Developer tools,NA-East,REP007,2025-02-08
+ACC0103,Customer 0103,Startup,AI-native apps,NA-West,REP005,2026-07-08
+ACC0104,Customer 0104,Mid-Market,Healthcare AI,EMEA,REP015,2024-09-12
+ACC0105,Customer 0105,Startup,Developer tools,EMEA,REP012,2024-01-03
+ACC0106,Customer 0106,Mid-Market,Developer tools,EMEA,REP014,2026-08-08
+ACC0107,Customer 0107,Mid-Market,Media & content,NA-East,REP009,2025-08-13
+ACC0108,Customer 0108,Enterprise,Developer tools,NA-East,REP010,2026-09-10
+ACC0109,Customer 0109,Startup,AI-native apps,EMEA,REP014,2024-09-13
+ACC0110,Customer 0110,Startup,Enterprise SaaS,NA-West,REP006,2026-10-12
+ACC0111,Customer 0111,Startup,Developer tools,NA-West,REP004,2026-05-08
+ACC0112,Customer 0112,Enterprise,Developer tools,NA-West,REP001,2024-12-07
+ACC0113,Customer 0113,Mid-Market,Enterprise SaaS,NA-East,REP008,2025-02-09
+ACC0114,Customer 0114,Startup,Healthcare AI,NA-West,REP006,2024-09-20
+ACC0115,Customer 0115,Startup,Healthcare AI,APAC,REP018,2024-06-05
+ACC0116,Customer 0116,Startup,Media & content,NA-West,REP004,2026-10-10
+ACC0117,Customer 0117,Mid-Market,AI-native apps,EMEA,REP012,2026-04-01
+ACC0118,Customer 0118,Startup,Healthcare AI,NA-West,REP001,2025-01-03
+ACC0119,Customer 0119,Mid-Market,AI-native apps,NA-East,REP008,2025-11-09
+ACC0120,Customer 0120,Enterprise,Media & content,NA-East,REP008,2026-03-19
+ACC0121,Customer 0121,Startup,Developer tools,APAC,REP017,2026-10-14
+ACC0122,Customer 0122,Startup,Healthcare AI,NA-East,REP010,2024-09-02
+ACC0123,Customer 0123,Startup,Media & content,NA-East,REP007,2025-05-14
+ACC0124,Customer 0124,Mid-Market,AI-native apps,NA-West,REP005,2026-03-15
+ACC0125,Customer 0125,Startup,Developer tools,NA-East,REP008,2024-10-17
+ACC0126,Customer 0126,Mid-Market,Healthcare AI,EMEA,REP012,2026-03-07
+ACC0127,Customer 0127,Enterprise,Healthcare AI,NA-West,REP004,2026-07-17
+ACC0128,Customer 0128,Enterprise,AI-native apps,EMEA,REP014,2025-08-02
+ACC0129,Customer 0129,Startup,Media & content,NA-East,REP010,2024-03-17
+ACC0130,Customer 0130,Startup,AI-native apps,NA-West,REP006,2026-05-02
+ACC0131,Customer 0131,Mid-Market,AI-native apps,NA-East,REP007,2026-09-05
+ACC0132,Customer 0132,Startup,Healthcare AI,NA-East,REP010,2025-03-16
+ACC0133,Customer 0133,Startup,Healthcare AI,NA-East,REP010,2025-04-06
+ACC0134,Customer 0134,Mid-Market,Media & content,NA-East,REP009,2025-12-16
+ACC0135,Customer 0135,Enterprise,Healthcare AI,EMEA,REP013,2025-05-15
+ACC0136,Customer 0136,Startup,Enterprise SaaS,EMEA,REP012,2025-10-03
+ACC0137,Customer 0137,Mid-Market,Healthcare AI,APAC,REP018,2026-04-18
+ACC0138,Customer 0138,Startup,Developer tools,NA-West,REP006,2024-06-20
+ACC0139,Customer 0139,Mid-Market,Media & content,NA-West,REP001,2026-01-09
+ACC0140,Customer 0140,Startup,Healthcare AI,NA-West,REP005,2026-03-17
+ACC0141,Customer 0141,Startup,Media & content,NA-West,REP001,2024-09-01
+ACC0142,Customer 0142,Mid-Market,AI-native apps,NA-East,REP009,2026-08-08
+ACC0143,Customer 0143,Mid-Market,Developer tools,NA-West,REP006,2025-06-19
+ACC0144,Customer 0144,Mid-Market,Healthcare AI,NA-East,REP009,2024-07-18
+ACC0145,Customer 0145,Mid-Market,AI-native apps,NA-West,REP006,2026-08-17
+ACC0146,Customer 0146,Mid-Market,Enterprise SaaS,NA-East,REP007,2025-10-01
+ACC0147,Customer 0147,Mid-Market,Enterprise SaaS,NA-West,REP002,2026-06-11
+ACC0148,Customer 0148,Enterprise,AI-native apps,APAC,REP016,2026-03-11
+ACC0149,Customer 0149,Mid-Market,Developer tools,EMEA,REP014,2024-08-14
+ACC0150,Customer 0150,Mid-Market,Media & content,NA-East,REP010,2025-10-07
+ACC0151,Customer 0151,Enterprise,AI-native apps,NA-West,REP006,2025-07-05
+ACC0152,Customer 0152,Startup,Enterprise SaaS,EMEA,REP012,2026-07-01
+ACC0153,Customer 0153,Startup,AI-native apps,NA-East,REP008,2024-01-10
+ACC0154,Customer 0154,Startup,Healthcare AI,NA-East,REP010,2026-09-02
+ACC0155,Customer 0155,Startup,AI-native apps,NA-East,REP009,2024-03-14
+ACC0156,Customer 0156,Mid-Market,Enterprise SaaS,NA-West,REP001,2026-07-05
+ACC0157,Customer 0157,Enterprise,Healthcare AI,NA-West,REP004,2024-05-15
+ACC0158,Customer 0158,Enterprise,Healthcare AI,NA-West,REP002,2024-10-15
+ACC0159,Customer 0159,Mid-Market,Media & content,APAC,REP018,2026-04-19
+ACC0160,Customer 0160,Mid-Market,Enterprise SaaS,EMEA,REP015,2026-02-13
+ACC0161,Customer 0161,Startup,Media & content,NA-West,REP006,2025-12-18
+ACC0162,Customer 0162,Startup,Enterprise SaaS,NA-West,REP005,2026-05-09
+ACC0163,Customer 0163,Startup,Developer tools,NA-West,REP003,2025-09-10
+ACC0164,Customer 0164,Enterprise,Developer tools,NA-West,REP002,2024-07-03
+ACC0165,Customer 0165,Mid-Market,Developer tools,EMEA,REP014,2026-05-08
+ACC0166,Customer 0166,Startup,Media & content,NA-West,REP003,2026-07-20
+ACC0167,Customer 0167,Mid-Market,Healthcare AI,EMEA,REP013,2026-04-01
+ACC0168,Customer 0168,Mid-Market,Enterprise SaaS,NA-West,REP002,2026-07-14
+ACC0169,Customer 0169,Startup,Developer tools,NA-West,REP001,2026-10-03
+ACC0170,Customer 0170,Startup,Enterprise SaaS,NA-East,REP008,2025-09-01
+ACC0171,Customer 0171,Mid-Market,Developer tools,EMEA,REP012,2025-08-08
+ACC0172,Customer 0172,Startup,Healthcare AI,EMEA,REP013,2026-10-01
+ACC0173,Customer 0173,Mid-Market,Media & content,APAC,REP018,2025-09-19
+ACC0174,Customer 0174,Startup,Enterprise SaaS,APAC,REP017,2025-06-06
+ACC0175,Customer 0175,Mid-Market,Developer tools,EMEA,REP014,2025-12-04
+ACC0176,Customer 0176,Mid-Market,Healthcare AI,NA-East,REP009,2024-02-18
+ACC0177,Customer 0177,Startup,Enterprise SaaS,NA-West,REP003,2026-10-08
+ACC0178,Customer 0178,Startup,Developer tools,NA-West,REP006,2025-01-08
+ACC0179,Customer 0179,Mid-Market,Media & content,NA-West,REP006,2024-11-07
+ACC0180,Customer 0180,Startup,AI-native apps,NA-West,REP004,2025-06-19
+ACC0181,Customer 0181,Startup,Healthcare AI,APAC,REP016,2025-03-02
+ACC0182,Customer 0182,Startup,AI-native apps,NA-West,REP003,2024-10-09
+ACC0183,Customer 0183,Startup,Media & content,APAC,REP016,2025-07-01
+ACC0184,Customer 0184,Startup,Media & content,NA-East,REP009,2026-04-18
+ACC0185,Customer 0185,Mid-Market,Developer tools,NA-East,REP008,2025-11-18
+ACC0186,Customer 0186,Startup,Healthcare AI,EMEA,REP013,2024-10-05
+ACC0187,Customer 0187,Startup,Healthcare AI,NA-East,REP008,2026-10-02
+ACC0188,Customer 0188,Startup,Enterprise SaaS,NA-West,REP005,2026-07-20
+ACC0189,Customer 0189,Enterprise,Developer tools,NA-East,REP007,2025-02-12
+ACC0190,Customer 0190,Enterprise,Enterprise SaaS,NA-West,REP004,2026-04-04
+ACC0191,Customer 0191,Startup,Healthcare AI,EMEA,REP013,2026-04-17
+ACC0192,Customer 0192,Mid-Market,Developer tools,NA-West,REP001,2024-05-08
+ACC0193,Customer 0193,Mid-Market,Healthcare AI,NA-East,REP007,2026-05-07
+ACC0194,Customer 0194,Startup,Developer tools,NA-East,REP011,2026-08-20
+ACC0195,Customer 0195,Enterprise,Developer tools,NA-West,REP002,2026-10-16
+ACC0196,Customer 0196,Startup,Healthcare AI,EMEA,REP013,2024-05-07
+ACC0197,Customer 0197,Mid-Market,Media & content,NA-West,REP003,2026-04-10
+ACC0198,Customer 0198,Mid-Market,Developer tools,NA-West,REP004,2025-08-02
+ACC0199,Customer 0199,Startup,AI-native apps,NA-West,REP002,2026-02-10
+ACC0200,Customer 0200,Mid-Market,Healthcare AI,NA-West,REP002,2024-05-15
+ACC0201,Customer 0201,Mid-Market,Enterprise SaaS,NA-East,REP007,2025-09-07
+ACC0202,Customer 0202,Startup,Developer tools,NA-West,REP003,2026-04-19
+ACC0203,Customer 0203,Startup,Enterprise SaaS,APAC,REP017,2026-03-03
+ACC0204,Customer 0204,Mid-Market,Developer tools,NA-East,REP010,2024-02-07
+ACC0205,Customer 0205,Mid-Market,Healthcare AI,EMEA,REP014,2024-07-19
+ACC0206,Customer 0206,Startup,AI-native apps,NA-West,REP006,2025-09-17
+ACC0207,Customer 0207,Startup,AI-native apps,EMEA,REP015,2026-03-14
+ACC0208,Customer 0208,Startup,Enterprise SaaS,NA-West,REP004,2024-08-07
+ACC0209,Customer 0209,Startup,Developer tools,NA-West,REP001,2026-07-15
+ACC0210,Customer 0210,Startup,AI-native apps,NA-West,REP004,2026-07-02
+ACC0211,Customer 0211,Startup,AI-native apps,NA-West,REP003,2024-10-15
+ACC0212,Customer 0212,Startup,Developer tools,NA-East,REP009,2025-12-19
+ACC0213,Customer 0213,Enterprise,Healthcare AI,NA-West,REP006,2026-05-01
+ACC0214,Customer 0214,Startup,Healthcare AI,APAC,REP018,2024-03-15
+ACC0215,Customer 0215,Startup,Developer tools,NA-West,REP004,2025-08-10
+ACC0216,Customer 0216,Enterprise,Developer tools,NA-East,REP008,2026-10-08
+ACC0217,Customer 0217,Startup,Enterprise SaaS,APAC,REP018,2025-10-02
+ACC0218,Customer 0218,Mid-Market,Healthcare AI,EMEA,REP015,2024-10-06
+ACC0219,Customer 0219,Mid-Market,Healthcare AI,APAC,REP016,2024-07-07
+ACC0220,Customer 0220,Startup,AI-native apps,NA-East,REP010,2025-02-15
+ACC0221,Customer 0221,Startup,Healthcare AI,NA-West,REP001,2025-10-03
+ACC0222,Customer 0222,Mid-Market,Healthcare AI,EMEA,REP014,2025-11-07
+ACC0223,Customer 0223,Mid-Market,AI-native apps,NA-East,REP008,2024-12-16
+ACC0224,Customer 0224,Startup,Enterprise SaaS,NA-West,REP002,2025-04-07
+ACC0225,Customer 0225,Mid-Market,Developer tools,NA-West,REP004,2025-02-04
+ACC0226,Customer 0226,Startup,Media & content,NA-West,REP004,2026-10-04
+ACC0227,Customer 0227,Mid-Market,AI-native apps,APAC,REP016,2025-01-15
+ACC0228,Customer 0228,Startup,Media & content,NA-East,REP008,2025-02-01
+ACC0229,Customer 0229,Enterprise,AI-native apps,NA-West,REP003,2026-09-17
+ACC0230,Customer 0230,Startup,AI-native apps,NA-East,REP007,2026-10-17
+ACC0231,Customer 0231,Startup,Enterprise SaaS,NA-East,REP007,2025-11-16
+ACC0232,Customer 0232,Startup,Developer tools,NA-West,REP006,2025-08-04
+ACC0233,Customer 0233,Mid-Market,Media & content,NA-East,REP007,2026-09-18
+ACC0234,Customer 0234,Mid-Market,Developer tools,NA-West,REP003,2026-10-16
+ACC0235,Customer 0235,Enterprise,AI-native apps,NA-East,REP009,2025-05-01
+ACC0236,Customer 0236,Startup,AI-native apps,EMEA,REP015,2025-05-09
+ACC0237,Customer 0237,Mid-Market,Media & content,NA-West,REP006,2025-03-17
+ACC0238,Customer 0238,Startup,Healthcare AI,EMEA,REP012,2026-10-17
+ACC0239,Customer 0239,Startup,AI-native apps,NA-East,REP011,2026-02-11
+ACC0240,Customer 0240,Startup,Enterprise SaaS,NA-West,REP001,2025-01-10
+ACC0241,Customer 0241,Mid-Market,AI-native apps,NA-East,REP010,2025-07-11
+ACC0242,Customer 0242,Startup,Enterprise SaaS,NA-West,REP004,2025-01-20
+ACC0243,Customer 0243,Mid-Market,Media & content,APAC,REP016,2025-02-19
+ACC0244,Customer 0244,Startup,Developer tools,NA-West,REP005,2026-10-15
+ACC0245,Customer 0245,Startup,Healthcare AI,NA-West,REP002,2025-01-17
+ACC0246,Customer 0246,Mid-Market,Developer tools,NA-East,REP011,2025-03-13
+ACC0247,Customer 0247,Startup,Media & content,NA-East,REP007,2025-12-20
+ACC0248,Customer 0248,Mid-Market,Media & content,NA-West,REP004,2025-01-05
+ACC0249,Customer 0249,Startup,Healthcare AI,NA-West,REP002,2026-04-18
+ACC0250,Customer 0250,Mid-Market,Developer tools,NA-West,REP003,2025-06-01
+ACC0251,Customer 0251,Enterprise,Enterprise SaaS,NA-West,REP004,2024-09-07
+ACC0252,Customer 0252,Startup,Enterprise SaaS,NA-East,REP008,2026-09-12
+ACC0253,Customer 0253,Startup,AI-native apps,NA-East,REP007,2026-04-06
+ACC0254,Customer 0254,Startup,Media & content,APAC,REP018,2024-12-17
+ACC0255,Customer 0255,Enterprise,Healthcare AI,EMEA,REP013,2026-02-17
+ACC0256,Customer 0256,Startup,Developer tools,NA-West,REP003,2024-12-03
+ACC0257,Customer 0257,Mid-Market,Enterprise SaaS,NA-West,REP006,2024-12-03
+ACC0258,Customer 0258,Startup,Healthcare AI,NA-East,REP008,2026-05-07
+ACC0259,Customer 0259,Startup,Enterprise SaaS,NA-West,REP001,2025-09-10
+ACC0260,Customer 0260,Startup,Media & content,NA-East,REP010,2024-07-15
+ACC0261,Customer 0261,Startup,Media & content,NA-West,REP005,2025-03-08
+ACC0262,Customer 0262,Enterprise,Developer tools,NA-West,REP005,2026-10-11
+ACC0263,Customer 0263,Mid-Market,Developer tools,NA-West,REP002,2024-02-09
+ACC0264,Customer 0264,Startup,Enterprise SaaS,NA-West,REP002,2026-06-06
+ACC0265,Customer 0265,Startup,Developer tools,NA-West,REP001,2024-02-09
+ACC0266,Customer 0266,Mid-Market,Media & content,NA-West,REP005,2024-06-14
+ACC0267,Customer 0267,Startup,Healthcare AI,NA-East,REP010,2024-06-17
+ACC0268,Customer 0268,Startup,Enterprise SaaS,APAC,REP016,2024-03-20
+ACC0269,Customer 0269,Mid-Market,Enterprise SaaS,NA-East,REP008,2025-03-10
+ACC0270,Customer 0270,Mid-Market,Developer tools,NA-West,REP002,2024-04-17
+ACC0271,Customer 0271,Mid-Market,Developer tools,NA-West,REP004,2025-08-03
+ACC0272,Customer 0272,Startup,Healthcare AI,NA-East,REP007,2024-08-07
+ACC0273,Customer 0273,Startup,Developer tools,NA-East,REP009,2025-02-09
+ACC0274,Customer 0274,Startup,Healthcare AI,NA-East,REP010,2024-10-09
+ACC0275,Customer 0275,Mid-Market,Enterprise SaaS,NA-West,REP003,2025-12-16
+ACC0276,Customer 0276,Startup,Enterprise SaaS,NA-East,REP008,2024-03-16
+ACC0277,Customer 0277,Startup,Media & content,NA-West,REP003,2026-09-15
+ACC0278,Customer 0278,Startup,Healthcare AI,NA-East,REP011,2025-12-03
+ACC0279,Customer 0279,Mid-Market,Healthcare AI,NA-West,REP002,2024-11-11
+ACC0280,Customer 0280,Mid-Market,AI-native apps,NA-West,REP004,2025-08-08
+ACC0281,Customer 0281,Mid-Market,AI-native apps,NA-West,REP004,2026-09-16
+ACC0282,Customer 0282,Mid-Market,AI-native apps,NA-West,REP006,2024-02-16
+ACC0283,Customer 0283,Startup,AI-native apps,NA-East,REP011,2024-02-07
+ACC0284,Customer 0284,Mid-Market,AI-native apps,NA-East,REP008,2025-11-12
+ACC0285,Customer 0285,Enterprise,Media & content,NA-East,REP010,2026-08-14
+ACC0286,Customer 0286,Startup,Enterprise SaaS,NA-West,REP004,2026-03-20
+ACC0287,Customer 0287,Startup,Healthcare AI,NA-East,REP007,2024-09-19
+ACC0288,Customer 0288,Startup,Media & content,NA-West,REP005,2026-01-08
+ACC0289,Customer 0289,Startup,AI-native apps,EMEA,REP013,2026-03-20
+ACC0290,Customer 0290,Startup,Developer tools,APAC,REP018,2025-08-05
+ACC0291,Customer 0291,Startup,Developer tools,NA-East,REP007,2026-05-19
+ACC0292,Customer 0292,Startup,Developer tools,NA-West,REP006,2025-09-11
+ACC0293,Customer 0293,Startup,AI-native apps,EMEA,REP015,2025-02-13
+ACC0294,Customer 0294,Startup,Enterprise SaaS,NA-East,REP007,2025-04-10
+ACC0295,Customer 0295,Mid-Market,Media & content,NA-East,REP008,2026-03-09
+ACC0296,Customer 0296,Startup,Enterprise SaaS,APAC,REP016,2024-12-20
+ACC0297,Customer 0297,Startup,Healthcare AI,NA-East,REP011,2025-01-09
+ACC0298,Customer 0298,Startup,Developer tools,EMEA,REP014,2026-05-06
+ACC0299,Customer 0299,Startup,Enterprise SaaS,NA-East,REP010,2026-01-14
+ACC0300,Customer 0300,Startup,Enterprise SaaS,NA-East,REP011,2025-10-19
+ACC0301,Customer 0301,Startup,Healthcare AI,NA-East,REP009,2026-02-01
+ACC0302,Customer 0302,Startup,Enterprise SaaS,NA-East,REP009,2026-02-16
+ACC0303,Customer 0303,Startup,Media & content,EMEA,REP015,2025-02-02
+ACC0304,Customer 0304,Mid-Market,Enterprise SaaS,NA-West,REP004,2024-01-14
+ACC0305,Customer 0305,Startup,AI-native apps,EMEA,REP012,2025-10-10
+ACC0306,Customer 0306,Startup,Enterprise SaaS,NA-East,REP010,2026-10-05
+ACC0307,Customer 0307,Startup,Enterprise SaaS,NA-East,REP011,2024-01-09
+ACC0308,Customer 0308,Startup,Developer tools,NA-East,REP010,2026-02-04
+ACC0309,Customer 0309,Enterprise,Developer tools,APAC,REP016,2026-08-12
+ACC0310,Customer 0310,Startup,Media & content,APAC,REP018,2026-06-04
+ACC0311,Customer 0311,Startup,Enterprise SaaS,NA-West,REP005,2025-10-20
+ACC0312,Customer 0312,Startup,Enterprise SaaS,NA-East,REP008,2024-12-16
+ACC0313,Customer 0313,Mid-Market,Media & content,NA-East,REP010,2025-05-08
+ACC0314,Customer 0314,Startup,Media & content,NA-West,REP003,2024-04-04
+ACC0315,Customer 0315,Startup,Media & content,APAC,REP018,2025-05-12
+ACC0316,Customer 0316,Startup,AI-native apps,EMEA,REP015,2026-04-02
+ACC0317,Customer 0317,Enterprise,AI-native apps,NA-East,REP010,2026-10-08
+ACC0318,Customer 0318,Startup,Healthcare AI,EMEA,REP015,2025-10-09
+ACC0319,Customer 0319,Mid-Market,Media & content,NA-West,REP005,2026-04-19
+ACC0320,Customer 0320,Startup,Developer tools,NA-East,REP009,2026-07-02
+ACC0321,Prospect 0001,Mid-Market,AI-native apps,NA-West,REP006,
+ACC0322,Prospect 0002,Mid-Market,Healthcare AI,NA-East,REP008,
+ACC0323,Prospect 0003,Mid-Market,Developer tools,NA-West,REP004,
+ACC0324,Prospect 0004,Mid-Market,Enterprise SaaS,EMEA,REP014,
+ACC0325,Prospect 0005,Enterprise,Healthcare AI,NA-West,REP004,
+ACC0326,Prospect 0006,Startup,Developer tools,EMEA,REP012,
+ACC0327,Prospect 0007,Startup,AI-native apps,NA-West,REP006,
+ACC0328,Prospect 0008,Startup,Healthcare AI,NA-East,REP010,
+ACC0329,Prospect 0009,Mid-Market,Healthcare AI,NA-West,REP001,
+ACC0330,Prospect 0010,Mid-Market,Developer tools,NA-East,REP009,
+ACC0331,Prospect 0011,Mid-Market,Developer tools,EMEA,REP015,
+ACC0332,Prospect 0012,Enterprise,Media & content,NA-West,REP002,
+ACC0333,Prospect 0013,Mid-Market,Enterprise SaaS,NA-West,REP004,
+ACC0334,Prospect 0014,Startup,Healthcare AI,NA-West,REP003,
+ACC0335,Prospect 0015,Mid-Market,Enterprise SaaS,NA-East,REP011,
+ACC0336,Prospect 0016,Mid-Market,Developer tools,APAC,REP018,
+ACC0337,Prospect 0017,Startup,AI-native apps,NA-West,REP003,
+ACC0338,Prospect 0018,Mid-Market,Media & content,NA-West,REP005,
+ACC0339,Prospect 0019,Startup,Developer tools,NA-West,REP006,
+ACC0340,Prospect 0020,Startup,AI-native apps,APAC,REP016,
+ACC0341,Prospect 0021,Mid-Market,AI-native apps,NA-West,REP004,
+ACC0342,Prospect 0022,Startup,Developer tools,NA-West,REP003,
+ACC0343,Prospect 0023,Mid-Market,Developer tools,NA-West,REP003,
+ACC0344,Prospect 0024,Enterprise,Media & content,NA-West,REP004,
+ACC0345,Prospect 0025,Mid-Market,AI-native apps,NA-West,REP003,
+ACC0346,Prospect 0026,Mid-Market,Enterprise SaaS,NA-West,REP006,
+ACC0347,Prospect 0027,Startup,Healthcare AI,NA-West,REP002,
+ACC0348,Prospect 0028,Startup,Developer tools,NA-East,REP010,
+ACC0349,Prospect 0029,Enterprise,Enterprise SaaS,NA-East,REP010,
+ACC0350,Prospect 0030,Mid-Market,Media & content,EMEA,REP015,
+ACC0351,Prospect 0031,Startup,AI-native apps,NA-West,REP006,
+ACC0352,Prospect 0032,Startup,Media & content,NA-West,REP004,
+ACC0353,Prospect 0033,Startup,Developer tools,EMEA,REP013,
+ACC0354,Prospect 0034,Startup,Developer tools,APAC,REP016,
+ACC0355,Prospect 0035,Startup,AI-native apps,EMEA,REP014,
+ACC0356,Prospect 0036,Startup,Developer tools,NA-East,REP007,
+ACC0357,Prospect 0037,Mid-Market,AI-native apps,NA-West,REP002,
+ACC0358,Prospect 0038,Startup,Media & content,NA-West,REP001,
+ACC0359,Prospect 0039,Startup,Media & content,NA-West,REP001,
+ACC0360,Prospect 0040,Enterprise,Healthcare AI,NA-East,REP008,
+ACC0361,Prospect 0041,Startup,AI-native apps,NA-West,REP002,
+ACC0362,Prospect 0042,Mid-Market,Enterprise SaaS,NA-West,REP005,
+ACC0363,Prospect 0043,Startup,Healthcare AI,NA-West,REP006,
+ACC0364,Prospect 0044,Mid-Market,Healthcare AI,APAC,REP017,
+ACC0365,Prospect 0045,Mid-Market,Enterprise SaaS,APAC,REP017,
+ACC0366,Prospect 0046,Startup,Developer tools,NA-East,REP011,
+ACC0367,Prospect 0047,Mid-Market,Media & content,NA-West,REP004,
+ACC0368,Prospect 0048,Startup,Healthcare AI,NA-West,REP001,
+ACC0369,Prospect 0049,Mid-Market,AI-native apps,NA-West,REP002,
+ACC0370,Prospect 0050,Startup,AI-native apps,NA-West,REP004,
+ACC0371,Prospect 0051,Startup,Enterprise SaaS,APAC,REP018,
+ACC0372,Prospect 0052,Mid-Market,Developer tools,APAC,REP016,
+ACC0373,Prospect 0053,Startup,Enterprise SaaS,NA-East,REP007,
+ACC0374,Prospect 0054,Enterprise,Healthcare AI,APAC,REP016,
+ACC0375,Prospect 0055,Enterprise,Healthcare AI,NA-West,REP001,
+ACC0376,Prospect 0056,Enterprise,Healthcare AI,EMEA,REP013,
+ACC0377,Prospect 0057,Mid-Market,AI-native apps,NA-West,REP003,
+ACC0378,Prospect 0058,Mid-Market,AI-native apps,EMEA,REP015,
+ACC0379,Prospect 0059,Mid-Market,Healthcare AI,EMEA,REP015,
+ACC0380,Prospect 0060,Startup,Enterprise SaaS,APAC,REP017,
+ACC0381,Prospect 0061,Mid-Market,Enterprise SaaS,EMEA,REP015,
+ACC0382,Prospect 0062,Startup,Developer tools,NA-East,REP007,
+ACC0383,Prospect 0063,Startup,Developer tools,NA-West,REP005,
+ACC0384,Prospect 0064,Mid-Market,Enterprise SaaS,NA-West,REP003,
+ACC0385,Prospect 0065,Startup,Enterprise SaaS,EMEA,REP013,
+ACC0386,Prospect 0066,Mid-Market,Developer tools,APAC,REP016,
+ACC0387,Prospect 0067,Startup,AI-native apps,EMEA,REP013,
+ACC0388,Prospect 0068,Startup,Enterprise SaaS,NA-East,REP011,
+ACC0389,Prospect 0069,Mid-Market,Enterprise SaaS,NA-West,REP005,
+ACC0390,Prospect 0070,Startup,Enterprise SaaS,EMEA,REP015,
+ACC0391,Prospect 0071,Mid-Market,Enterprise SaaS,APAC,REP018,
+ACC0392,Prospect 0072,Startup,Enterprise SaaS,EMEA,REP013,
+ACC0393,Prospect 0073,Mid-Market,Media & content,NA-West,REP006,
+ACC0394,Prospect 0074,Startup,AI-native apps,NA-West,REP005,
+ACC0395,Prospect 0075,Mid-Market,Enterprise SaaS,NA-West,REP006,
+ACC0396,Prospect 0076,Startup,AI-native apps,EMEA,REP014,
+ACC0397,Prospect 0077,Mid-Market,Healthcare AI,NA-West,REP005,
+ACC0398,Prospect 0078,Enterprise,Enterprise SaaS,NA-West,REP004,
+ACC0399,Prospect 0079,Enterprise,AI-native apps,NA-East,REP011,
+ACC0400,Prospect 0080,Startup,Enterprise SaaS,APAC,REP017,
+ACC0401,Prospect 0081,Mid-Market,Media & content,NA-West,REP005,
+ACC0402,Prospect 0082,Enterprise,Healthcare AI,EMEA,REP013,
+ACC0403,Prospect 0083,Startup,AI-native apps,NA-West,REP004,
+ACC0404,Prospect 0084,Startup,AI-native apps,EMEA,REP015,
+ACC0405,Prospect 0085,Startup,Healthcare AI,EMEA,REP015,
+ACC0406,Prospect 0086,Startup,Media & content,NA-East,REP007,
+ACC0407,Prospect 0087,Mid-Market,Enterprise SaaS,NA-East,REP008,
+ACC0408,Prospect 0088,Startup,Media & content,NA-East,REP009,
+ACC0409,Prospect 0089,Mid-Market,Enterprise SaaS,NA-West,REP001,
+ACC0410,Prospect 0090,Startup,AI-native apps,APAC,REP018,
+ACC0411,Prospect 0091,Mid-Market,AI-native apps,NA-East,REP011,
+ACC0412,Prospect 0092,Startup,Enterprise SaaS,NA-West,REP003,
+ACC0413,Prospect 0093,Startup,Healthcare AI,NA-West,REP001,
+ACC0414,Prospect 0094,Startup,Developer tools,NA-East,REP008,
+ACC0415,Prospect 0095,Enterprise,Developer tools,NA-West,REP006,
+ACC0416,Prospect 0096,Mid-Market,Developer tools,NA-East,REP008,
+ACC0417,Prospect 0097,Startup,Media & content,EMEA,REP013,
+ACC0418,Prospect 0098,Mid-Market,Developer tools,APAC,REP018,
+ACC0419,Prospect 0099,Startup,Media & content,NA-East,REP011,
+ACC0420,Prospect 0100,Startup,AI-native apps,NA-West,REP003,
+ACC0421,Prospect 0101,Startup,Healthcare AI,APAC,REP017,
+ACC0422,Prospect 0102,Startup,Media & content,NA-West,REP001,
+ACC0423,Prospect 0103,Startup,Enterprise SaaS,EMEA,REP015,
+ACC0424,Prospect 0104,Startup,Healthcare AI,EMEA,REP014,
+ACC0425,Prospect 0105,Startup,Developer tools,NA-West,REP002,
+ACC0426,Prospect 0106,Mid-Market,Developer tools,EMEA,REP015,
+ACC0427,Prospect 0107,Startup,Developer tools,NA-East,REP008,
+ACC0428,Prospect 0108,Enterprise,AI-native apps,NA-West,REP001,
+ACC0429,Prospect 0109,Startup,Media & content,NA-East,REP008,
+ACC0430,Prospect 0110,Startup,Enterprise SaaS,NA-West,REP001,
+ACC0431,Prospect 0111,Mid-Market,Developer tools,APAC,REP018,
+ACC0432,Prospect 0112,Startup,Enterprise SaaS,EMEA,REP013,
+ACC0433,Prospect 0113,Mid-Market,AI-native apps,NA-East,REP011,
+ACC0434,Prospect 0114,Startup,Enterprise SaaS,NA-West,REP006,
+ACC0435,Prospect 0115,Mid-Market,Healthcare AI,NA-West,REP005,
+ACC0436,Prospect 0116,Startup,Enterprise SaaS,EMEA,REP015,
+ACC0437,Prospect 0117,Startup,Enterprise SaaS,NA-East,REP010,
+ACC0438,Prospect 0118,Mid-Market,Media & content,NA-East,REP008,
+ACC0439,Prospect 0119,Mid-Market,Healthcare AI,NA-East,REP008,
+ACC0440,Prospect 0120,Startup,Media & content,APAC,REP017,
+ACC0441,Prospect 0121,Enterprise,Developer tools,NA-West,REP005,
+ACC0442,Prospect 0122,Startup,Developer tools,NA-East,REP011,
+ACC0443,Prospect 0123,Startup,Media & content,EMEA,REP015,
+ACC0444,Prospect 0124,Mid-Market,Enterprise SaaS,NA-West,REP004,
+ACC0445,Prospect 0125,Mid-Market,Enterprise SaaS,NA-East,REP008,
+ACC0446,Prospect 0126,Startup,Enterprise SaaS,NA-West,REP003,
+ACC0447,Prospect 0127,Mid-Market,Developer tools,NA-West,REP003,
+ACC0448,Prospect 0128,Startup,AI-native apps,NA-West,REP006,
+ACC0449,Prospect 0129,Startup,Media & content,NA-East,REP007,
+ACC0450,Prospect 0130,Mid-Market,Developer tools,NA-East,REP008,
+ACC0451,Prospect 0131,Mid-Market,AI-native apps,NA-East,REP009,
+ACC0452,Prospect 0132,Mid-Market,Enterprise SaaS,NA-West,REP001,
+ACC0453,Prospect 0133,Mid-Market,Healthcare AI,NA-East,REP008,
+ACC0454,Prospect 0134,Mid-Market,AI-native apps,EMEA,REP012,
+ACC0455,Prospect 0135,Startup,AI-native apps,NA-East,REP008,
+ACC0456,Prospect 0136,Enterprise,Developer tools,APAC,REP016,
+ACC0457,Prospect 0137,Mid-Market,Media & content,NA-West,REP005,
+ACC0458,Prospect 0138,Startup,Enterprise SaaS,NA-West,REP002,
+ACC0459,Prospect 0139,Mid-Market,Enterprise SaaS,EMEA,REP013,
+ACC0460,Prospect 0140,Mid-Market,Healthcare AI,NA-East,REP009,
+ACC0461,Prospect 0141,Startup,Developer tools,NA-East,REP008,
+ACC0462,Prospect 0142,Enterprise,Enterprise SaaS,NA-West,REP006,
+ACC0463,Prospect 0143,Startup,Media & content,EMEA,REP012,
+ACC0464,Prospect 0144,Startup,Healthcare AI,NA-East,REP010,
+ACC0465,Prospect 0145,Mid-Market,Media & content,EMEA,REP014,
+ACC0466,Prospect 0146,Mid-Market,Enterprise SaaS,EMEA,REP014,
+ACC0467,Prospect 0147,Startup,Healthcare AI,NA-East,REP011,
+ACC0468,Prospect 0148,Startup,Media & content,EMEA,REP015,
+ACC0469,Prospect 0149,Mid-Market,Enterprise SaaS,NA-West,REP003,
+ACC0470,Prospect 0150,Enterprise,AI-native apps,NA-East,REP007,
+ACC0471,Prospect 0151,Mid-Market,Healthcare AI,NA-East,REP009,
+ACC0472,Prospect 0152,Mid-Market,Enterprise SaaS,EMEA,REP015,
+ACC0473,Prospect 0153,Startup,Healthcare AI,NA-West,REP004,
+ACC0474,Prospect 0154,Startup,Enterprise SaaS,APAC,REP018,
+ACC0475,Prospect 0155,Startup,Media & content,APAC,REP017,
+ACC0476,Prospect 0156,Mid-Market,Enterprise SaaS,NA-West,REP004,
+ACC0477,Prospect 0157,Startup,Developer tools,APAC,REP016,
+ACC0478,Prospect 0158,Mid-Market,Developer tools,NA-East,REP007,
+ACC0479,Prospect 0159,Enterprise,Healthcare AI,APAC,REP017,
+ACC0480,Prospect 0160,Mid-Market,Media & content,NA-West,REP005,

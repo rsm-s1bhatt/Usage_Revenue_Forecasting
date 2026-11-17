@@ -1,0 +1,5 @@
+gpu_type,list_price_per_gpu_hour,infra_cost_per_gpu_hour
+L4,0.85,0.4
+A100,3.2,1.75
+H100,5.5,3.3
+B200,8.75,6.1

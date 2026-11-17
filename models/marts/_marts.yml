@@ -1,0 +1,104 @@
+version: 2
+
+models:
+  - name: fct_revenue_monthly
+    description: >
+      One row per account and month. Revenue is what was billed: the greater of the monthly
+      commit and discounted usage. It splits into committed revenue and consumption above commit
+      (overage); unused commit, GPU hours, infrastructure cost and gross margin sit alongside.
+    columns:
+      - name: account_id
+        data_tests: [not_null]
+      - name: revenue_month
+        data_tests: [not_null]
+      - name: revenue_usd
+        data_tests:
+          - accepted_range:
+              arguments: {min_value: 0}
+      - name: overage_revenue_usd
+        description: Revenue above the monthly commit, driven by consumption.
+        data_tests:
+          - accepted_range:
+              arguments: {min_value: 0}
+      - name: unused_commit_usd
+        description: Commit the customer paid for but did not use. Revenue with no infrastructure cost.
+      - name: gross_margin_usd
+        description: Revenue minus infrastructure cost of the GPU hours served.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ["account_id", "revenue_month"]
+  - name: fct_gross_margin_by_gpu
+    description: >
+      Revenue, infrastructure cost and gross margin by account, month and GPU type. Billed revenue
+      is allocated across GPU types by their share of list-price usage value.
+    columns:
+      - name: gross_margin_pct
+        data_tests:
+          - accepted_range:
+              arguments: {min_value: -1, max_value: 1}
+  - name: fct_revenue_bridge_quarterly
+    description: >
+      Quarter-over-quarter revenue bridge (start + new + expansion - contraction - churn = end)
+      with net and gross revenue retention. Complete quarters only.
+    columns:
+      - name: quarter_start
+        data_tests: [unique, not_null]
+      - name: gross_revenue_retention
+        data_tests:
+          - accepted_range:
+              arguments: {min_value: 0, max_value: 1}
+  - name: fct_plan_vs_actual
+    description: >
+      2026 revenue plan versus actual by region and month. Variance splits into the existing
+      customer base (billing before 2026) and new logos won in 2026.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ["region", "plan_month"]
+  - name: fct_stage_win_rates
+    description: >
+      Historical win rate of closed opportunities that reached each stage, compared with the CRM's
+      default stage probability. Used to weight open pipeline.
+    columns:
+      - name: stage
+        data_tests: [unique, not_null]
+      - name: historical_win_rate
+        data_tests:
+          - accepted_range:
+              arguments: {min_value: 0, max_value: 1}
+  - name: fct_pipeline_open
+    description: Open, valid opportunities at the end of actuals, weighted by historical stage win rates.
+    columns:
+      - name: opportunity_id
+        data_tests: [unique, not_null]
+  - name: fct_rep_performance
+    description: >
+      Rep performance by year: new-business and expansion bookings, attainment against quota
+      (2026 quota prorated to the end of actuals), win rate, sales cycle, and pipeline coverage.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ["rep_id", "yr"]
+  - name: dim_customers
+    description: >
+      The unified customer model: one row per account joining CRM, billing and telemetry. Status
+      (Prospect, Active, Churned), tenure, revenue, margin, commit, GPU usage, deployments and
+      open pipeline. Every other GTM analysis can start here.
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+      - name: customer_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Prospect", "Active", "Churned"]
+  - name: fct_account_features_monthly
+    description: >
+      Point-in-time features for account scoring, one row per active account per monthly snapshot.
+      Features use only data before the snapshot. Labels (churn or major contraction, expansion)
+      come from the following 3 months and are null where those months are not yet observed.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ["account_id", "snapshot_date"]

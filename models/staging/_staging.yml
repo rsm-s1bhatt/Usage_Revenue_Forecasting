@@ -1,0 +1,94 @@
+version: 2
+
+models:
+  - name: stg_crm__accounts
+    description: One row per account from the CRM, typed.
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+  - name: stg_crm__reps
+    description: One row per sales rep with region and annual quota.
+    columns:
+      - name: rep_id
+        data_tests: [unique, not_null]
+      - name: annual_quota_usd
+        data_tests:
+          - accepted_range:
+              arguments: {min_value: 0}
+  - name: stg_crm__opportunities
+    description: >
+      Every opportunity as recorded, with flags for duplicates and unknown accounts.
+      Marts use only rows where is_valid is true.
+    columns:
+      - name: opportunity_id
+        data_tests: [unique, not_null]
+      - name: amount_usd
+        data_tests:
+          - accepted_range:
+              arguments: {min_value: 0}
+      - name: stage
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Discovery", "Evaluation", "Technical Validation", "Negotiation", "Closed Won", "Closed Lost"]
+  - name: stg_crm__opportunity_history
+    description: One row per stage an opportunity entered.
+    columns:
+      - name: opportunity_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_crm__opportunities')
+                field: opportunity_id
+  - name: stg_billing__contracts
+    description: Annual commit contracts.
+    columns:
+      - name: contract_id
+        data_tests: [unique, not_null]
+      - name: account_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_crm__accounts')
+                field: account_id
+      - name: discount_pct
+        data_tests:
+          - accepted_range:
+              arguments: {min_value: 0, max_value: 0.5}
+  - name: stg_billing__invoices
+    description: Monthly invoices.
+    columns:
+      - name: invoice_id
+        data_tests: [unique, not_null]
+      - name: account_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_crm__accounts')
+                field: account_id
+  - name: stg_telemetry__usage_daily
+    description: Daily GPU hours and requests by account and GPU type.
+    columns:
+      - name: account_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_crm__accounts')
+                field: account_id
+      - name: gpu_type
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_ref__gpu_rates')
+                field: gpu_type
+  - name: stg_telemetry__deployments
+    description: Model deployment events.
+  - name: stg_ref__gpu_rates
+    description: Illustrative list price and infrastructure cost per GPU hour.
+    columns:
+      - name: gpu_type
+        data_tests: [unique, not_null]
+  - name: stg_plan__revenue_monthly
+    description: 2026 monthly revenue plan by region.

@@ -1,0 +1,7 @@
+usage_revenue:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: target/usage_revenue.duckdb
+      threads: 4

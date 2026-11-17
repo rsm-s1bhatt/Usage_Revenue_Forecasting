@@ -1,0 +1,8 @@
+target/
+dbt_packages/
+logs/
+*.duckdb
+__pycache__/
+site/
+.user.yml
+data/raw/telemetry_usage_daily.csv

@@ -1,0 +1,75 @@
+name: dbt + models CI
+
+# Runs the whole pipeline on every pull request, every push to main, and once a week:
+# generate data -> dbt build -> forecast and score in Python -> build the rep-facing report.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 14 * * 1"   # Mondays 14:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate synthetic CRM, billing and telemetry data
+        run: python scripts/generate_data.py
+
+      - name: Build warehouse models and run all data tests
+        # Fails the run (and blocks the PR) if any error-level test fails.
+        # Data-quality checks are set to warn: they report upstream gaps without blocking.
+        run: dbt build --profiles-dir . --exclude tag:post_ml
+
+      - name: Forecast revenue and backtest
+        run: python scripts/forecast_revenue.py
+
+      - name: Score accounts for churn risk and expansion
+        run: python scripts/score_accounts.py
+
+      - name: Build the account priority report and its tests
+        run: dbt build --profiles-dir . --select tag:post_ml
+
+      - name: Show data-quality summary
+        if: always()
+        run: |
+          python -c "import duckdb; print(duckdb.connect('target/usage_revenue.duckdb', read_only=True).sql('select * from dq_summary'))"
+
+      - name: Generate documentation site
+        run: |
+          dbt docs generate --profiles-dir . --static
+          mkdir -p site && cp target/static_index.html site/index.html
+
+      - name: Upload docs as a Pages artifact
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy-docs:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy dbt docs to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

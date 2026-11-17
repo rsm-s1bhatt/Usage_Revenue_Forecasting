@@ -1,0 +1,96 @@
+version: 2
+
+sources:
+  - name: crm
+    description: >
+      SYNTHETIC Salesforce-style CRM extract made by scripts/generate_data.py: accounts, reps,
+      opportunities and opportunity stage history.
+    meta:
+      external_location: "data/raw/crm_{name}.csv"
+    tables:
+      - name: accounts
+        description: One row per customer or prospect account.
+        columns:
+          - name: account_id
+            data_tests: [unique, not_null]
+          - name: segment
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ["Enterprise", "Mid-Market", "Startup"]
+          - name: region
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ["NA-West", "NA-East", "EMEA", "APAC"]
+      - name: reps
+        description: Account executives, with region and annual quota.
+        columns:
+          - name: rep_id
+            data_tests: [unique, not_null]
+      - name: opportunities
+        description: One row per opportunity. Contains planted duplicates and unknown accounts.
+        columns:
+          - name: opportunity_id
+            data_tests: [unique, not_null]
+          - name: opportunity_type
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ["New Business", "Expansion", "Renewal"]
+      - name: opportunity_history
+        description: One row per stage an opportunity entered, with the date it entered it.
+
+  - name: billing
+    description: "SYNTHETIC billing system extract: annual commit contracts and monthly invoices."
+    meta:
+      external_location: "data/raw/billing_{name}.csv"
+    tables:
+      - name: contracts
+        description: Annual commit contracts. Monthly commit is the minimum the customer pays.
+        columns:
+          - name: contract_id
+            data_tests: [unique, not_null]
+      - name: invoices
+        description: Monthly invoices. Billed should equal the greater of commit and discounted usage.
+        columns:
+          - name: invoice_id
+            data_tests: [unique, not_null]
+
+  - name: telemetry
+    description: "SYNTHETIC platform telemetry: daily GPU hours by account and GPU type, and model deployments."
+    meta:
+      external_location: "data/raw/telemetry_{name}.csv"
+    tables:
+      - name: usage_daily
+        description: One row per account, day and GPU type with GPU hours and requests served.
+      - name: deployments
+        description: One row per model deployment.
+
+  - name: ref
+    description: Reference data. GPU prices and costs are illustrative, not any vendor's real rates.
+    meta:
+      external_location: "data/raw/ref_{name}.csv"
+    tables:
+      - name: gpu_rates
+        columns:
+          - name: gpu_type
+            data_tests: [unique, not_null]
+
+  - name: plan
+    description: SYNTHETIC 2026 revenue plan by region, set from the Q4 2025 run-rate.
+    meta:
+      external_location: "data/raw/plan_{name}.csv"
+    tables:
+      - name: revenue_monthly
+
+  - name: ml
+    description: >
+      Tables written back to the warehouse by the Python modeling scripts
+      (scripts/forecast_revenue.py and scripts/score_accounts.py). Built after the core dbt run.
+    schema: ml
+    tables:
+      - name: account_scores
+        description: Churn-risk and expansion scores per active account, as of the end of actuals.
+      - name: revenue_forecast
+        description: Account-level revenue forecast for the next 3 months.

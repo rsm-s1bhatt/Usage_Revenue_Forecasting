@@ -1,0 +1,167 @@
+Account_External_Id__c,Churn_Risk_Score__c,Churn_Risk_Tier__c,Churn_Risk_Reason__c,Expansion_Score__c,Expansion_Tier__c,Expansion_Reason__c,Scores_As_Of__c
+ACC0001,0.6395,Top 10%,share of last 30 days with traffic,0.5309,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0002,0.2415,Next 20%,has a commit contract,0.2683,Rest,days since last deployment,2026-11-01
+ACC0003,0.0096,Rest,GPU types in use,0.431,Rest,GPU types in use,2026-11-01
+ACC0005,0.5015,Top 10%,share of last 30 days with traffic,0.3862,Rest,"model deployments, last 60 days",2026-11-01
+ACC0006,0.0038,Rest,"model deployments, last 60 days",0.2061,Rest,Startup segment,2026-11-01
+ACC0008,0.0002,Rest,GPU types in use,0.2179,Rest,Startup segment,2026-11-01
+ACC0009,0.015,Rest,GPU types in use,0.2838,Rest,Startup segment,2026-11-01
+ACC0011,0.0022,Rest,has a commit contract,0.212,Rest,usage as a share of commit,2026-11-01
+ACC0013,0.0237,Rest,share of last 30 days with traffic,0.3345,Rest,days since last deployment,2026-11-01
+ACC0014,0.004,Rest,GPU types in use,0.8065,Top 10%,"model deployments, last 60 days",2026-11-01
+ACC0016,0.0297,Rest,has a commit contract,0.5865,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0023,0.0001,Rest,revenue growth vs prior 3 months,0.5588,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0024,0.0495,Rest,has a commit contract,0.4,Rest,days since last deployment,2026-11-01
+ACC0025,0.0001,Rest,GPU types in use,0.2887,Rest,Startup segment,2026-11-01
+ACC0027,0.3166,Top 10%,has a commit contract,0.5158,Rest,revenue size (last 3 months),2026-11-01
+ACC0029,0.0003,Rest,revenue growth vs prior 3 months,0.2273,Rest,Startup segment,2026-11-01
+ACC0033,0.7644,Top 10%,share of last 30 days with traffic,0.4293,Rest,revenue size (last 3 months),2026-11-01
+ACC0037,0.0041,Rest,GPU types in use,0.7713,Top 10%,"model deployments, last 60 days",2026-11-01
+ACC0040,0.0691,Next 20%,has a commit contract,0.4455,Rest,revenue size (last 3 months),2026-11-01
+ACC0041,0.0946,Next 20%,GPU types in use,0.9215,Top 10%,revenue change last month,2026-11-01
+ACC0042,0.0097,Rest,share of last 30 days with traffic,0.9174,Top 10%,"model deployments, last 60 days",2026-11-01
+ACC0044,0.006,Rest,months as a customer,0.3207,Rest,revenue size (last 3 months),2026-11-01
+ACC0047,0.0577,Rest,has a commit contract,0.5521,Next 20%,revenue size (last 3 months),2026-11-01
+ACC0053,0.0093,Rest,revenue growth vs prior 3 months,0.6191,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0054,0.0018,Rest,GPU types in use,0.3428,Rest,Startup segment,2026-11-01
+ACC0056,0.024,Rest,revenue growth vs prior 3 months,0.5704,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0063,0.002,Rest,revenue growth vs prior 3 months,0.284,Rest,share of last 30 days with traffic,2026-11-01
+ACC0064,0.0372,Rest,months as a customer,0.7975,Top 10%,revenue change last month,2026-11-01
+ACC0065,0.0053,Rest,Enterprise segment,0.5475,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0066,0.0142,Rest,revenue growth vs prior 3 months,0.6265,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0067,0.013,Rest,change in deployments vs prior 60 days,0.506,Rest,"model deployments, last 60 days",2026-11-01
+ACC0068,0.0084,Rest,GPU types in use,0.3624,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0070,0.0015,Rest,revenue growth vs prior 3 months,0.4015,Rest,"model deployments, last 60 days",2026-11-01
+ACC0071,0.0025,Rest,Enterprise segment,0.4681,Rest,Startup segment,2026-11-01
+ACC0072,0.1495,Next 20%,share of last 30 days with traffic,0.3484,Rest,Startup segment,2026-11-01
+ACC0073,0.0117,Rest,revenue growth vs prior 3 months,0.3728,Rest,Startup segment,2026-11-01
+ACC0076,0.0317,Rest,change in deployments vs prior 60 days,0.5757,Next 20%,revenue size (last 3 months),2026-11-01
+ACC0077,0.001,Rest,has a commit contract,0.6719,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0079,0.0004,Rest,change in deployments vs prior 60 days,0.2641,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0084,0.0093,Rest,has a commit contract,0.5941,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0085,0.0014,Rest,GPU types in use,0.4976,Rest,"model deployments, last 60 days",2026-11-01
+ACC0086,0.0068,Rest,has a commit contract,0.5848,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0087,0.001,Rest,Enterprise segment,0.5001,Rest,"model deployments, last 60 days",2026-11-01
+ACC0089,0.0001,Rest,change in deployments vs prior 60 days,0.2635,Rest,Startup segment,2026-11-01
+ACC0090,0.2812,Next 20%,GPU types in use,0.2434,Rest,GPU types in use,2026-11-01
+ACC0093,0.1372,Next 20%,share of last 30 days with traffic,0.5074,Rest,"model deployments, last 60 days",2026-11-01
+ACC0096,0.075,Next 20%,has a commit contract,0.4363,Rest,revenue size (last 3 months),2026-11-01
+ACC0097,0.808,Top 10%,share of last 30 days with traffic,0.3566,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0100,0.0246,Rest,change in deployments vs prior 60 days,0.4542,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0105,0.0068,Rest,has a commit contract,0.3683,Rest,revenue size (last 3 months),2026-11-01
+ACC0107,0.0034,Rest,"model deployments, last 60 days",0.1647,Rest,Startup segment,2026-11-01
+ACC0111,0.0362,Rest,has a commit contract,0.41,Rest,revenue size (last 3 months),2026-11-01
+ACC0112,0.0046,Rest,share of last 30 days with traffic,0.2886,Rest,"model deployments, last 60 days",2026-11-01
+ACC0117,0.0147,Rest,GPU types in use,0.3741,Rest,"model deployments, last 60 days",2026-11-01
+ACC0118,0.2046,Next 20%,share of last 30 days with traffic,0.3021,Rest,days since last deployment,2026-11-01
+ACC0119,0.0756,Next 20%,share of last 30 days with traffic,0.373,Rest,"model deployments, last 60 days",2026-11-01
+ACC0120,0.0002,Rest,revenue growth vs prior 3 months,0.5958,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0123,0.1821,Next 20%,has a commit contract,0.3353,Rest,revenue size (last 3 months),2026-11-01
+ACC0124,0.1652,Next 20%,share of last 30 days with traffic,0.324,Rest,"model deployments, last 60 days",2026-11-01
+ACC0126,0.0057,Rest,revenue growth vs prior 3 months,0.54,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0128,0.0002,Rest,revenue growth vs prior 3 months,0.1448,Rest,Startup segment,2026-11-01
+ACC0130,0.1341,Next 20%,has a commit contract,0.6766,Next 20%,revenue size (last 3 months),2026-11-01
+ACC0132,0.0459,Rest,has a commit contract,0.2068,Rest,GPU types in use,2026-11-01
+ACC0133,0.0411,Rest,has a commit contract,0.2581,Rest,usage as a share of commit,2026-11-01
+ACC0134,0.2121,Next 20%,has a commit contract,0.3693,Rest,Startup segment,2026-11-01
+ACC0135,0.012,Rest,GPU types in use,0.1766,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0137,0.018,Rest,GPU types in use,0.9863,Top 10%,revenue change last month,2026-11-01
+ACC0138,0.0837,Next 20%,has a commit contract,0.1788,Rest,GPU types in use,2026-11-01
+ACC0139,0.0622,Rest,revenue growth vs prior 3 months,0.6969,Top 10%,"model deployments, last 60 days",2026-11-01
+ACC0140,0.0043,Rest,months as a customer,0.4274,Rest,"model deployments, last 60 days",2026-11-01
+ACC0143,0.175,Next 20%,share of last 30 days with traffic,0.3818,Rest,revenue size (last 3 months),2026-11-01
+ACC0146,0.0023,Rest,Enterprise segment,0.4229,Rest,"model deployments, last 60 days",2026-11-01
+ACC0148,0.01,Rest,share of last 30 days with traffic,0.2715,Rest,"model deployments, last 60 days",2026-11-01
+ACC0149,0.0014,Rest,Enterprise segment,0.2606,Rest,Startup segment,2026-11-01
+ACC0150,0.0418,Rest,has a commit contract,0.3853,Rest,Startup segment,2026-11-01
+ACC0151,0.0,Rest,share of last 30 days with traffic,0.9878,Top 10%,"model deployments, last 60 days",2026-11-01
+ACC0153,0.0009,Rest,Enterprise segment,0.1505,Rest,revenue change last month,2026-11-01
+ACC0157,0.0035,Rest,share of last 30 days with traffic,0.3112,Rest,"model deployments, last 60 days",2026-11-01
+ACC0158,0.0002,Rest,GPU types in use,0.8759,Top 10%,new GPU type added recently,2026-11-01
+ACC0159,0.0663,Rest,months as a customer,0.4124,Rest,Startup segment,2026-11-01
+ACC0160,0.0305,Rest,GPU types in use,0.5923,Next 20%,revenue change last month,2026-11-01
+ACC0161,0.4222,Top 10%,has a commit contract,0.4611,Rest,revenue size (last 3 months),2026-11-01
+ACC0162,0.1419,Next 20%,share of last 30 days with traffic,0.2753,Rest,revenue size (last 3 months),2026-11-01
+ACC0163,0.4928,Top 10%,share of last 30 days with traffic,0.5646,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0164,0.0055,Rest,share of last 30 days with traffic,0.3931,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0165,0.0339,Rest,change in deployments vs prior 60 days,0.2892,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0167,0.0076,Rest,months as a customer,0.2356,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0170,0.0578,Rest,has a commit contract,0.2622,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0171,0.0166,Rest,revenue growth vs prior 3 months,0.2593,Rest,Startup segment,2026-11-01
+ACC0173,0.0201,Rest,change in deployments vs prior 60 days,0.4205,Rest,revenue change last month,2026-11-01
+ACC0175,0.0185,Rest,GPU types in use,0.5959,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0176,0.0079,Rest,GPU types in use,0.3297,Rest,Startup segment,2026-11-01
+ACC0179,0.0049,Rest,revenue growth vs prior 3 months,0.3008,Rest,Startup segment,2026-11-01
+ACC0180,0.0067,Rest,revenue growth vs prior 3 months,0.3567,Rest,revenue change last month,2026-11-01
+ACC0181,0.0966,Next 20%,has a commit contract,0.2926,Rest,GPU types in use,2026-11-01
+ACC0184,0.2431,Next 20%,share of last 30 days with traffic,0.4198,Rest,revenue size (last 3 months),2026-11-01
+ACC0185,0.0121,Rest,revenue growth vs prior 3 months,0.2832,Rest,Startup segment,2026-11-01
+ACC0189,0.0,Rest,revenue growth vs prior 3 months,0.5758,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0190,0.0067,Rest,months as a customer,0.1505,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0191,0.0384,Rest,change in deployments vs prior 60 days,0.3509,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0192,0.0297,Rest,has a commit contract,0.253,Rest,days since last deployment,2026-11-01
+ACC0193,0.0455,Rest,has a commit contract,0.467,Rest,"model deployments, last 60 days",2026-11-01
+ACC0196,0.1476,Next 20%,share of last 30 days with traffic,0.242,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0197,0.0139,Rest,months as a customer,0.5651,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0198,0.2585,Next 20%,share of last 30 days with traffic,0.4174,Rest,Startup segment,2026-11-01
+ACC0199,0.1195,Next 20%,has a commit contract,0.3634,Rest,usage as a share of commit,2026-11-01
+ACC0201,0.018,Rest,GPU types in use,0.5915,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0202,0.5292,Top 10%,share of last 30 days with traffic,0.4426,Rest,revenue size (last 3 months),2026-11-01
+ACC0203,0.2448,Next 20%,has a commit contract,0.3296,Rest,revenue size (last 3 months),2026-11-01
+ACC0212,0.006,Rest,has a commit contract,0.7775,Top 10%,new GPU type added recently,2026-11-01
+ACC0213,0.0025,Rest,months as a customer,0.3713,Rest,"model deployments, last 60 days",2026-11-01
+ACC0219,0.0162,Rest,GPU types in use,0.1434,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0220,0.5862,Top 10%,GPU types in use,0.5126,Rest,GPU types in use,2026-11-01
+ACC0222,0.3677,Top 10%,share of last 30 days with traffic,0.5888,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0224,0.0835,Next 20%,has a commit contract,0.5922,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0227,0.0106,Rest,revenue growth vs prior 3 months,0.5551,Next 20%,revenue size (last 3 months),2026-11-01
+ACC0231,0.0204,Rest,has a commit contract,0.5435,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0235,0.0007,Rest,GPU types in use,0.5043,Rest,"model deployments, last 60 days",2026-11-01
+ACC0236,0.0,Rest,has a commit contract,0.7514,Top 10%,new GPU type added recently,2026-11-01
+ACC0239,0.1901,Next 20%,has a commit contract,0.3852,Rest,revenue size (last 3 months),2026-11-01
+ACC0241,0.004,Rest,revenue growth vs prior 3 months,0.4543,Rest,Startup segment,2026-11-01
+ACC0243,0.0041,Rest,has a commit contract,0.6084,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0246,0.0513,Rest,share of last 30 days with traffic,0.33,Rest,"model deployments, last 60 days",2026-11-01
+ACC0248,0.0044,Rest,revenue growth vs prior 3 months,0.3065,Rest,Startup segment,2026-11-01
+ACC0249,0.9247,Top 10%,share of last 30 days with traffic,0.6441,Next 20%,revenue change last month,2026-11-01
+ACC0251,0.0025,Rest,GPU types in use,0.9312,Top 10%,new GPU type added recently,2026-11-01
+ACC0253,0.1145,Next 20%,has a commit contract,0.437,Rest,"model deployments, last 60 days",2026-11-01
+ACC0255,0.0121,Rest,revenue growth vs prior 3 months,0.3126,Rest,revenue change last month,2026-11-01
+ACC0256,0.8738,Top 10%,share of last 30 days with traffic,0.2919,Rest,revenue size (last 3 months),2026-11-01
+ACC0258,0.6448,Top 10%,share of last 30 days with traffic,0.9672,Top 10%,revenue change last month,2026-11-01
+ACC0259,0.3193,Top 10%,has a commit contract,0.4464,Rest,"model deployments, last 60 days",2026-11-01
+ACC0263,0.0002,Rest,has a commit contract,0.7452,Top 10%,"model deployments, last 60 days",2026-11-01
+ACC0266,0.0387,Rest,share of last 30 days with traffic,0.5092,Rest,"model deployments, last 60 days",2026-11-01
+ACC0267,0.102,Next 20%,share of last 30 days with traffic,0.3858,Rest,revenue size (last 3 months),2026-11-01
+ACC0268,0.0007,Rest,GPU types in use,0.6657,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0269,0.0025,Rest,revenue growth vs prior 3 months,0.45,Rest,"model deployments, last 60 days",2026-11-01
+ACC0270,0.0044,Rest,GPU types in use,0.2672,Rest,Startup segment,2026-11-01
+ACC0271,0.0022,Rest,GPU types in use,0.5321,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0275,0.0286,Rest,has a commit contract,0.4534,Rest,"model deployments, last 60 days",2026-11-01
+ACC0276,0.022,Rest,has a commit contract,0.3017,Rest,change in deployments vs prior 60 days,2026-11-01
+ACC0280,0.0182,Rest,has a commit contract,0.651,Next 20%,revenue size (last 3 months),2026-11-01
+ACC0282,0.0001,Rest,revenue growth vs prior 3 months,0.7956,Top 10%,"model deployments, last 60 days",2026-11-01
+ACC0283,0.0005,Rest,"model deployments, last 60 days",0.247,Rest,revenue change last month,2026-11-01
+ACC0284,0.0047,Rest,revenue growth vs prior 3 months,0.4781,Rest,"model deployments, last 60 days",2026-11-01
+ACC0286,0.046,Rest,has a commit contract,0.3584,Rest,revenue size (last 3 months),2026-11-01
+ACC0287,0.0069,Rest,"model deployments, last 60 days",0.2854,Rest,days since last deployment,2026-11-01
+ACC0288,0.052,Rest,has a commit contract,0.5191,Next 20%,"model deployments, last 60 days",2026-11-01
+ACC0289,0.5199,Top 10%,has a commit contract,0.2588,Rest,GPU types in use,2026-11-01
+ACC0295,0.2853,Top 10%,share of last 30 days with traffic,0.4377,Rest,"model deployments, last 60 days",2026-11-01
+ACC0296,0.0891,Next 20%,has a commit contract,0.4395,Rest,GPU types in use,2026-11-01
+ACC0297,0.2895,Top 10%,share of last 30 days with traffic,0.2287,Rest,GPU types in use,2026-11-01
+ACC0298,0.0449,Rest,share of last 30 days with traffic,0.4066,Rest,"model deployments, last 60 days",2026-11-01
+ACC0299,0.1118,Next 20%,has a commit contract,0.9639,Top 10%,"model deployments, last 60 days",2026-11-01
+ACC0301,0.1537,Next 20%,share of last 30 days with traffic,0.3034,Rest,revenue size (last 3 months),2026-11-01
+ACC0302,0.0108,Rest,revenue growth vs prior 3 months,0.5477,Next 20%,revenue size (last 3 months),2026-11-01
+ACC0303,0.0038,Rest,Enterprise segment,0.4547,Rest,"model deployments, last 60 days",2026-11-01
+ACC0304,0.0005,Rest,GPU types in use,0.6596,Next 20%,revenue change last month,2026-11-01
+ACC0308,0.147,Next 20%,share of last 30 days with traffic,0.3699,Rest,revenue size (last 3 months),2026-11-01
+ACC0311,0.1795,Next 20%,has a commit contract,0.4317,Rest,"model deployments, last 60 days",2026-11-01
+ACC0312,0.0192,Rest,has a commit contract,0.2396,Rest,usage as a share of commit,2026-11-01
+ACC0313,0.0017,Rest,revenue growth vs prior 3 months,0.5,Rest,"model deployments, last 60 days",2026-11-01
+ACC0314,0.0016,Rest,GPU types in use,0.4411,Rest,revenue change last month,2026-11-01
+ACC0315,0.0064,Rest,has a commit contract,0.9747,Top 10%,revenue change last month,2026-11-01
+ACC0316,0.1252,Next 20%,has a commit contract,0.3697,Rest,revenue size (last 3 months),2026-11-01
+ACC0318,0.1395,Next 20%,share of last 30 days with traffic,0.4355,Rest,revenue size (last 3 months),2026-11-01
+ACC0319,0.0184,Rest,months as a customer,0.1572,Rest,Startup segment,2026-11-01

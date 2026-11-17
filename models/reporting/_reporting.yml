@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: rpt_account_priority
+    description: >
+      One row per active account for reps and account managers: revenue, margin, forecast,
+      churn and expansion scores with reasons, and a recommended next action. Built after the
+      Python models write their scores and forecast to the ml schema (tag post_ml).
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+      - name: recommended_action
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - "Retention: owner check-in this week"
+                  - "Expansion: propose a larger commit"
+                  - "Expansion: confirm the new workload"
+                  - "Margin review: discount and GPU mix"
+                  - "Monitor"
+      - name: churn_score
+        data_tests:
+          - not_null
+          - accepted_range:
+              arguments: {min_value: 0, max_value: 1}
+      - name: expansion_score
+        data_tests:
+          - not_null
+          - accepted_range:
+              arguments: {min_value: 0, max_value: 1}
