@@ -2,6 +2,8 @@
 
 [![dbt + models CI](https://github.com/rsm-s1bhatt/Usage_Revenue_Forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/rsm-s1bhatt/Usage_Revenue_Forecasting/actions/workflows/ci.yml)
 
+**Docs and lineage:** [rsm-s1bhatt.github.io/Usage_Revenue_Forecasting](https://rsm-s1bhatt.github.io/Usage_Revenue_Forecasting/)
+
 A sales analytics stack for a company whose revenue is **consumption-based**, like an AI inference
 platform: customers sign a monthly commit, then pay for the GPU hours they actually use above it.
 Built with dbt on DuckDB, Python (pandas, scikit-learn), and GitHub Actions.
